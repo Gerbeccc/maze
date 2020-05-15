@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+}
+
+body {
+	height: 100vh;
+	background: #BBD2C5;
+	background: -webkit-linear-gradient(to bottom, #00157d, #6e86eb, #ffffff);
+	background: linear-gradient(to bottom, #00157d, #6e86eb, #ffffff);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 20px
+}
+
+.innerContainer {
+    position: relative;
+    left: -50%;
+}
+
+.controls {
+    position: absolute;
+    position: absolute; 
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 100px;
+    bottom: 20px;
+    display: flex;
+    z-index: 10;
+}
+
+.controls button {
+	outline: none;
+	cursor: pointer;
+	padding: 8px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	font-weight: bold;
+	background: #6e86eb;
+	color: white;
+}
+
+.controls button:hover {
+	background: #00157d;
+	color: white;
+}
+
+img {
+    height: 80vh;
+}

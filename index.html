@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maze</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" href="favicon.ico"/>
+</head>
+<body>
+
+<div class="controls">
+	<button onclick="draw(true)">Nariši pot</button>
+		<button onclick="draw(false)">Potovanje objekta</button>
+</div>
+
+<div class="container">
+    <div class="innerContainer">
+        <img alt="maze" src="img/maze.png">
+    </div>
+</div>
+
+<div class="container">
+    <div class="innerContainer">
+        <canvas id="sketch"></canvas>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
